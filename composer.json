@@ -1,0 +1,20 @@
+{
+    "name": "talib/wphelper",
+    "description": "Helper functions for WordPress Themes & Plugins",
+    "authors": [
+        {
+            "name": "TALIB4590",
+            "email": "abutalib4590@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BdWebNinja\\WPHelper\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Constants.php",
+            "src/Helpers/Functions.php"
+        ]
+    },
+    "require": {}
+}
